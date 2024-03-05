@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IntroToWebDev</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--navigation bar-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">My Website</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/jtf1701.gethub.io/index.html" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/jtf1701.gethub.io/about.html" class="navbar_links">About</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/jtf1701.gethub.io/contact.html" class="navbar_button">Contact</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+<script src="app.js"></script>
+    <!--contact page-->
+    <div class="container">
+        <div class="connect_header">
+            <h1> Contact Me</h1>
+        </div>
+        <div class="contact_box">
+            <div class="contact-left">
+                <h2>Send email</h2>
+                <form>
+                <!--name, email, and message-->
+                    <div class="input_row">
+                        <div class="input_group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Full Name" >
+                        </div>
+                    </div>
+                    <div class="input_row">
+                        <div class="input_group">
+                            <label>Your Email</label>
+                            <input type="email" placeholder="Example@email.com">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows=5 placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <!--footer-->
+        <style>
+            .footer {
+                position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+               }
+           </style>
+           <div class="footer">
+               <p>© 2024, Jake Fleishman</p>
+           </div>
+</body>
+</html>
